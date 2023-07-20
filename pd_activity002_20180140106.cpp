@@ -28,3 +28,17 @@ int main() {
 	cout << "4. Exit" << endl;
 
 	cout << "Masukan pilihan : ";
+
+	do
+	{
+
+
+		switch (pilihan)
+		{
+		case 1:
+			cout << "Masukan panjang : ";
+			cin >> panjang;
+			cout << "Masukan lebar : ";
+			cin >> lebar;
+			cout << "Luas perseegipanjang = " << Luaspersegipanjang(panjang, lebar);
+			break;
